@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* This section will note the changes made to the header. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +25,7 @@ body {
     color: #d9dcd6;
 }
 
+/* This is the default for the website. */
 section {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,11 +34,9 @@ section {
     font-size: 20px;
 }
 
-.header div ul {
+/* Format of the links in the header. */
+.header section ul li {
     list-style-type: none;
-}
-
-.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -46,11 +46,12 @@ a {
     text-decoration: none;
     display: inline;
 }
-
+/* Font size for paragraphs. */
 p {
     font-size: 16px;
 }
 
+/* Format of main picture. */
 .hero {
     height: 800px;
     width: 100%;
